@@ -308,12 +308,13 @@ form.addEventListener('submit', e => {
    },17500);
  });
  
- function komen(){
+function komen(){
    let te = true;
    Swal.fire({
      title: 'Saran & Masukan',
      html: 'Monggo Tulis Saran lan Masukane jenengan kangge <b>MaGanDev</b> alias Mas Gantheng Developer😆 Dan biasa dipanggil Kangmas Gantheng oleh Pak Hafidz Abdul Mujib😎🤙. Terimakasih banyak untuk @Pak Hafidz @Pak Nur Salim dan @Pak Warsono yang sudah ikut mendukung saya pada project kali ini.Silahkan tulis saran & masukan terbaik Anda😁. 1 masukan 1 semangat buat Mas Gantheng Developer🙏'+breakline+breakline +'👇👇👇'+breakline +'<a href="https://wa.me/6283866445087">Tulis saran</a>',
      showCloseButton:  true,
+     confirmButtonText : 'Ya',
      confirmButtonText : 'Lanjut Main',
 
    });
